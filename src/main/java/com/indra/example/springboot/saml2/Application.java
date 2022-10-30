@@ -27,7 +27,7 @@ public class Application {
 		System.out.println(principal.getRelyingPartyRegistrationId());
 		System.out.println(principal.getAttribute("parameter"));
 		System.out.println(principal.getAttribute("parameter2"));
-		);
+		
 		
 		model.addAttribute("name", principal.getName());
 		return "hello";
